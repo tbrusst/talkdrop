@@ -1,0 +1,41 @@
+body{
+    background-color: $black;
+    color: white;
+}
+
+#content-work{
+
+    &:before{
+        content: '';
+        position: absolute;
+        background-color: white;
+        height: 5px;
+        width: 20%;
+        @media only screen and (min-width: 768px) {
+            width: 15%;
+            
+        }
+        @media only screen and (min-width: 1280px) {
+            width: 10%;
+            
+        } 
+    }
+    padding: 0 20px;
+    margin: 40px 0 100px 0;
+    a:hover{
+        h1{
+            color: $black;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: white;
+        }
+    }
+    h1{
+
+        padding-top: 10px;
+
+
+    }
+    p{
+        margin: 0 0 10px 0;
+    }
+}

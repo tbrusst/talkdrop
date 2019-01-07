@@ -1,0 +1,37 @@
+
+
+
+// @font-face {
+//     font-family: 'Sporting Grotesque';
+//     src: url('../../../fonts/SportingGrotesque-Regular.otf');
+// }
+
+// @font-face {
+//     font-family: 'Sporting Grotesque';
+//     src: url('../../../fonts/SportingGrotesque-Bold.otf');
+//     font-weight: bold;
+// }
+
+
+@font-face {
+    font-family: 'TradeGothic LT Extended';
+    src: url('../../../fonts/TradeGothicLT-BoldExtended.woff2') format('woff2'),
+        url('../../../fonts/TradeGothicLT-BoldExtended.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sporting Grotesque';
+    src: url('../../../fonts/SportingGrotesque-Regular.woff2') format('woff2'),
+        url('../../../fonts/SportingGrotesque-Regular.woff') format('woff');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sporting Grotesque';
+    src: url('../../../fonts/SportingGrotesque-Bold.woff2') format('woff2'),
+        url('../../../fonts/SportingGrotesque-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}

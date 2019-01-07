@@ -1,0 +1,62 @@
+.footer{
+    &:before{
+        content:'';
+        height: 1px;
+        width: 100vw;
+        background-color: white;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: $black;
+    
+
+    padding: 20px;
+    .left{
+        display: flex;
+        flex-direction: row;
+        
+        a{
+            margin: 0 20px 0 0;
+        }
+    }
+
+    .right{
+        display:none;
+        @media only screen and (min-width: 768px) {
+            display:flex;
+            flex-direction: row;
+            height: 100%;
+            &:after{
+                content:'';
+                position: absolute;
+                background-color: white;
+                height: 100%;
+                width: 1px;
+                top: 0;
+            }
+            p{
+                padding-left: 20px;
+            }
+            
+        }
+
+        
+    }
+
+
+    @media only screen and (min-width: 768px) {
+        left: 0;
+        width: 100%;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+}

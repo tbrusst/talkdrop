@@ -1,0 +1,96 @@
+/*
+ * Typography
+ *
+ * This file collects some basic typography styles for copy text.
+ *
+ *****************************************************************************/
+
+// @font-face {
+//     font-family: 'Trade';
+//     src: url('../../../fonts/Trade-Gothic-LT-Extended.ttf');
+
+// }
+
+
+
+
+
+body {
+    font-size: 100%;
+    // font-weight: $font-regular-weight;
+    letter-spacing: $kerning50;
+    line-height: $line-height-lg;
+    
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+
+}
+
+
+a {
+    text-decoration: none;
+    // transition: color 0.2s ease-in-out;
+
+}
+
+h1{
+    font-family: 'TradeGothic LT Extended';
+
+    font-size: 1.7rem;
+    @media only screen and (min-width: 768px) {
+        font-size: 3rem;
+        
+    }
+    @media only screen and (min-width: 1280px) {
+        font-size: 5rem;
+        
+    }
+}
+
+h2{
+    font-family: 'TradeGothic LT Extended';
+    font-size: 1.75rem;
+    @media only screen and (min-width: 768px) {
+        font-size: 1.5rem;
+        
+    }
+    @media only screen and (min-width: 1280px) {
+        font-size: 2.75rem;
+        
+    }
+}
+
+h3{
+    font-family: 'Sporting Grotesque';
+    font-size: 1.25rem;
+    font-weight: normal;
+    @media only screen and (min-width: 768px) {
+        font-size: 1.1rem;
+        
+    }
+    @media only screen and (min-width: 1280px) {
+        font-size: 1.5rem;
+        
+    }
+}
+
+p{
+font-family: 'Sporting Grotesque';
+    font-size: .9rem;
+    @media only screen and (min-width: 768px) {
+        font-size: 1.2rem;
+        
+    }
+    @media only screen and (min-width: 1280px) {
+        font-size: 1.2rem;
+        
+    }
+}
